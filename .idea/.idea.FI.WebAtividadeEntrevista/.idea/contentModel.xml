@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Git\Avaliacoes\FI.WebAtividadeEntrevista" t="IncludeFlat">
+      <e p="FI.AtividadeEntrevista" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BLL" t="Include">
+          <e p="BoCliente.cs" t="Include" />
+        </e>
+        <e p="DAL" t="Include">
+          <e p="Clientes" t="Include">
+            <e p="DaoCliente.cs" t="Include" />
+            <e p="Procedures" t="Include">
+              <e p="FI_SP_AltCliente.sql" t="Include" />
+              <e p="FI_SP_ConsCliente.sql" t="Include" />
+              <e p="FI_SP_DelCliente.sql" t="Include" />
+              <e p="FI_SP_IncCliente.sql" t="Include" />
+              <e p="FI_SP_PesqCliente.sql" t="Include" />
+            </e>
+          </e>
+          <e p="Padrao" t="Include">
+            <e p="FI.AcessoDados.cs" t="Include" />
+          </e>
+        </e>
+        <e p="DML" t="Include">
+          <e p="Cliente.cs" t="Include" />
+        </e>
+        <e p="FI.AtividadeEntrevista.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="FI.WebAtividadeEntrevista" t="IncludeRecursive">
+        <e p="App_Data" t="Include">
+          <e p="BancoDeDados.mdf" t="Include" />
+          <e p="BancoDeDados_log.ldf" t="Include" />
+        </e>
+        <e p="App_Start" t="Include">
+          <e p="BundleConfig.cs" t="Include" />
+          <e p="FilterConfig.cs" t="Include" />
+          <e p="RouteConfig.cs" t="Include" />
+          <e p="WebApiConfig.cs" t="Include" />
+        </e>
+        <e p="ApplicationInsights.config" t="Include" />
+        <e p="Areas" t="Include">
+          <e p="HelpPage" t="Include">
+            <e p="ApiDescriptionExtensions.cs" t="Include" />
+            <e p="App_Start" t="Include">
+              <e p="HelpPageConfig.cs" t="Include" />
+            </e>
+            <e p="Controllers" t="Include">
+              <e p="HelpController.cs" t="Include" />
+            </e>
+            <e p="HelpPage.css" t="Include" />
+            <e p="HelpPageAreaRegistration.cs" t="Include" />
+            <e p="HelpPageConfigurationExtensions.cs" t="Include" />
+            <e p="ModelDescriptions" t="Include">
+              <e p="CollectionModelDescription.cs" t="Include" />
+              <e p="ComplexTypeModelDescription.cs" t="Include" />
+              <e p="DictionaryModelDescription.cs" t="Include" />
+              <e p="EnumTypeModelDescription.cs" t="Include" />
+              <e p="EnumValueDescription.cs" t="Include" />
+              <e p="IModelDocumentationProvider.cs" t="Include" />
+              <e p="KeyValuePairModelDescription.cs" t="Include" />
+              <e p="ModelDescription.cs" t="Include" />
+              <e p="ModelDescriptionGenerator.cs" t="Include" />
+              <e p="ModelNameAttribute.cs" t="Include" />
+              <e p="ModelNameHelper.cs" t="Include" />
+              <e p="ParameterAnnotation.cs" t="Include" />
+              <e p="ParameterDescription.cs" t="Include" />
+              <e p="SimpleTypeModelDescription.cs" t="Include" />
+            </e>
+            <e p="Models" t="Include">
+              <e p="HelpPageApiModel.cs" t="Include" />
+            </e>
+            <e p="SampleGeneration" t="Include">
+              <e p="HelpPageSampleGenerator.cs" t="Include" />
+              <e p="HelpPageSampleKey.cs" t="Include" />
+              <e p="ImageSample.cs" t="Include" />
+              <e p="InvalidSample.cs" t="Include" />
+              <e p="ObjectGenerator.cs" t="Include" />
+              <e p="SampleDirection.cs" t="Include" />
+              <e p="TextSample.cs" t="Include" />
+            </e>
+            <e p="Views" t="Include">
+              <e p="_ViewStart.cshtml" t="Include" />
+              <e p="Help" t="Include">
+                <e p="Api.cshtml" t="Include" />
+                <e p="DisplayTemplates" t="Include">
+                  <e p="ApiGroup.cshtml" t="Include" />
+                  <e p="CollectionModelDescription.cshtml" t="Include" />
+                  <e p="ComplexTypeModelDescription.cshtml" t="Include" />
+                  <e p="DictionaryModelDescription.cshtml" t="Include" />
+                  <e p="EnumTypeModelDescription.cshtml" t="Include" />
+                  <e p="HelpPageApiModel.cshtml" t="Include" />
+                  <e p="ImageSample.cshtml" t="Include" />
+                  <e p="InvalidSample.cshtml" t="Include" />
+                  <e p="KeyValuePairModelDescription.cshtml" t="Include" />
+                  <e p="ModelDescriptionLink.cshtml" t="Include" />
+                  <e p="Parameters.cshtml" t="Include" />
+                  <e p="Samples.cshtml" t="Include" />
+                  <e p="SimpleTypeModelDescription.cshtml" t="Include" />
+                  <e p="TextSample.cshtml" t="Include" />
+                </e>
+                <e p="Index.cshtml" t="Include" />
+                <e p="ResourceModel.cshtml" t="Include" />
+              </e>
+              <e p="Shared" t="Include">
+                <e p="_Layout.cshtml" t="Include" />
+              </e>
+              <e p="Web.config" t="Include" />
+            </e>
+            <e p="XmlDocumentationProvider.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Content" t="Include">
+          <e p="bootstrap.css" t="Include" />
+          <e p="bootstrap.min.css" t="Include" />
+          <e p="Site.css" t="Include" />
+          <e p="themes" t="Include">
+            <e p="base" t="Include">
+              <e p="accordion.css" t="Include" />
+              <e p="all.css" t="Include" />
+              <e p="autocomplete.css" t="Include" />
+              <e p="base.css" t="Include" />
+              <e p="button.css" t="Include" />
+              <e p="core.css" t="Include" />
+              <e p="datepicker.css" t="Include" />
+              <e p="dialog.css" t="Include" />
+              <e p="draggable.css" t="Include" />
+              <e p="images" t="Include">
+                <e p="ui-bg_flat_0_aaaaaa_40x100.png" t="Include" />
+                <e p="ui-bg_flat_75_ffffff_40x100.png" t="Include" />
+                <e p="ui-bg_glass_55_fbf9ee_1x400.png" t="Include" />
+                <e p="ui-bg_glass_65_ffffff_1x400.png" t="Include" />
+                <e p="ui-bg_glass_75_dadada_1x400.png" t="Include" />
+                <e p="ui-bg_glass_75_e6e6e6_1x400.png" t="Include" />
+                <e p="ui-bg_glass_95_fef1ec_1x400.png" t="Include" />
+                <e p="ui-bg_highlight-soft_75_cccccc_1x100.png" t="Include" />
+                <e p="ui-icons_222222_256x240.png" t="Include" />
+                <e p="ui-icons_2e83ff_256x240.png" t="Include" />
+                <e p="ui-icons_444444_256x240.png" t="Include" />
+                <e p="ui-icons_454545_256x240.png" t="Include" />
+                <e p="ui-icons_555555_256x240.png" t="Include" />
+                <e p="ui-icons_777620_256x240.png" t="Include" />
+                <e p="ui-icons_777777_256x240.png" t="Include" />
+                <e p="ui-icons_888888_256x240.png" t="Include" />
+                <e p="ui-icons_cc0000_256x240.png" t="Include" />
+                <e p="ui-icons_cd0a0a_256x240.png" t="Include" />
+                <e p="ui-icons_ffffff_256x240.png" t="Include" />
+              </e>
+              <e p="jquery-ui.css" t="Include" />
+              <e p="jquery-ui.min.css" t="Include" />
+              <e p="menu.css" t="Include" />
+              <e p="minified" t="Include">
+                <e p="images" t="Include" />
+              </e>
+              <e p="progressbar.css" t="Include" />
+              <e p="resizable.css" t="Include" />
+              <e p="selectable.css" t="Include" />
+              <e p="selectmenu.css" t="Include" />
+              <e p="slider.css" t="Include" />
+              <e p="sortable.css" t="Include" />
+              <e p="spinner.css" t="Include" />
+              <e p="tabs.css" t="Include" />
+              <e p="theme.css" t="Include" />
+              <e p="tooltip.css" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="ClienteController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+          <e p="ValuesController.cs" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="fonts" t="Include">
+          <e p="glyphicons-halflings-regular.eot" t="Include" />
+          <e p="glyphicons-halflings-regular.svg" t="Include" />
+          <e p="glyphicons-halflings-regular.ttf" t="Include" />
+          <e p="glyphicons-halflings-regular.woff" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="ClienteModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="bootstrap.js" t="Include" />
+          <e p="bootstrap.min.js" t="Include" />
+          <e p="Clientes" t="Include">
+            <e p="FI.AltClientes.js" t="Include" />
+            <e p="FI.Clientes.js" t="Include" />
+            <e p="FI.ListClientes.js" t="Include" />
+          </e>
+          <e p="jquery-3.3.1.intellisense.js" t="Include" />
+          <e p="jquery-3.3.1.js" t="Include" />
+          <e p="jquery-3.3.1.min.js" t="Include" />
+          <e p="jquery-3.3.1.min.map" t="Include" />
+          <e p="jquery-3.3.1.slim.js" t="Include" />
+          <e p="jquery-3.3.1.slim.min.js" t="Include" />
+          <e p="jquery-3.3.1.slim.min.map" t="Include" />
+          <e p="jquery-ui-1.12.1.js" t="Include" />
+          <e p="jquery-ui-1.12.1.min.js" t="Include" />
+          <e p="jtable" t="Include">
+            <e p="extensions" t="Include">
+              <e p="jquery.jtable.aspnetpagemethods.js" t="Include" />
+              <e p="jquery.jtable.aspnetpagemethods.min.js" t="Include" />
+            </e>
+            <e p="external" t="Include">
+              <e p="json2.js" t="Include" />
+              <e p="json2.min.js" t="Include" />
+            </e>
+            <e p="jquery.jtable.js" t="Include" />
+            <e p="jquery.jtable.min.js" t="Include" />
+            <e p="localization" t="Include">
+              <e p="jquery.jtable.bd.js" t="Include" />
+              <e p="jquery.jtable.ca.js" t="Include" />
+              <e p="jquery.jtable.cz.js" t="Include" />
+              <e p="jquery.jtable.de.js" t="Include" />
+              <e p="jquery.jtable.es.js" t="Include" />
+              <e p="jquery.jtable.fa.js" t="Include" />
+              <e p="jquery.jtable.fr.js" t="Include" />
+              <e p="jquery.jtable.hr.js" t="Include" />
+              <e p="jquery.jtable.hu.js" t="Include" />
+              <e p="jquery.jtable.id.js" t="Include" />
+              <e p="jquery.jtable.it.js" t="Include" />
+              <e p="jquery.jtable.lt.js" t="Include" />
+              <e p="jquery.jtable.nl-NL.js" t="Include" />
+              <e p="jquery.jtable.no.js" t="Include" />
+              <e p="jquery.jtable.pl.js" t="Include" />
+              <e p="jquery.jtable.pt-BR.js" t="Include" />
+              <e p="jquery.jtable.pt-PT.js" t="Include" />
+              <e p="jquery.jtable.ro.js" t="Include" />
+              <e p="jquery.jtable.ru.js" t="Include" />
+              <e p="jquery.jtable.se.js" t="Include" />
+              <e p="jquery.jtable.tr.js" t="Include" />
+              <e p="jquery.jtable.vi.js" t="Include" />
+              <e p="jquery.jtable.zh-CN.js" t="Include" />
+            </e>
+            <e p="themes" t="Include">
+              <e p="basic" t="Include">
+                <e p="close.png" t="Include" />
+                <e p="column-asc.png" t="Include" />
+                <e p="column-desc.png" t="Include" />
+                <e p="column-sortable.png" t="Include" />
+                <e p="delete.png" t="Include" />
+                <e p="edit.png" t="Include" />
+                <e p="jtable_basic.css" t="Include" />
+                <e p="jtable_basic.less" t="Include" />
+                <e p="jtable_basic.min.css" t="Include" />
+              </e>
+              <e p="jqueryui" t="Include">
+                <e p="add.png" t="Include" />
+                <e p="bg-thead.png" t="Include" />
+                <e p="close.png" t="Include" />
+                <e p="column-asc.png" t="Include" />
+                <e p="column-desc.png" t="Include" />
+                <e p="column-sortable.png" t="Include" />
+                <e p="delete.png" t="Include" />
+                <e p="edit.png" t="Include" />
+                <e p="jtable_jqueryui.css" t="Include" />
+                <e p="jtable_jqueryui.less" t="Include" />
+                <e p="jtable_jqueryui.min.css" t="Include" />
+                <e p="loading.gif" t="Include" />
+              </e>
+              <e p="jtable_theme_base.less" t="Include" />
+              <e p="lightcolor" t="Include">
+                <e p="add.png" t="Include" />
+                <e p="bg-thead.png" t="Include" />
+                <e p="blue" t="Include">
+                  <e p="jtable.css" t="Include" />
+                  <e p="jtable.less" t="Include" />
+                  <e p="jtable.min.css" t="Include" />
+                  <e p="loading.gif" t="Include" />
+                </e>
+                <e p="close.png" t="Include" />
+                <e p="column-asc.png" t="Include" />
+                <e p="column-desc.png" t="Include" />
+                <e p="column-sortable.png" t="Include" />
+                <e p="delete.png" t="Include" />
+                <e p="edit.png" t="Include" />
+                <e p="gray" t="Include">
+                  <e p="jtable.css" t="Include" />
+                  <e p="jtable.less" t="Include" />
+                  <e p="jtable.min.css" t="Include" />
+                  <e p="loading.gif" t="Include" />
+                </e>
+                <e p="green" t="Include">
+                  <e p="jtable.css" t="Include" />
+                  <e p="jtable.less" t="Include" />
+                  <e p="jtable.min.css" t="Include" />
+                  <e p="loading.gif" t="Include" />
+                </e>
+                <e p="jtable_lightcolor_base.less" t="Include" />
+                <e p="orange" t="Include">
+                  <e p="jtable.css" t="Include" />
+                  <e p="jtable.less" t="Include" />
+                  <e p="jtable.min.css" t="Include" />
+                  <e p="loading.gif" t="Include" />
+                </e>
+                <e p="red" t="Include">
+                  <e p="jtable.css" t="Include" />
+                  <e p="jtable.less" t="Include" />
+                  <e p="jtable.min.css" t="Include" />
+                  <e p="loading.gif" t="Include" />
+                </e>
+              </e>
+              <e p="metro" t="Include">
+                <e p="add.png" t="Include" />
+                <e p="blue" t="Include">
+                  <e p="jtable.css" t="Include" />
+                  <e p="jtable.less" t="Include" />
+                  <e p="jtable.min.css" t="Include" />
+                  <e p="loading.gif" t="Include" />
+                </e>
+                <e p="brown" t="Include">
+                  <e p="jtable.css" t="Include" />
+                  <e p="jtable.less" t="Include" />
+                  <e p="jtable.min.css" t="Include" />
+                  <e p="loading.gif" t="Include" />
+                </e>
+                <e p="close.png" t="Include" />
+                <e p="column-asc.png" t="Include" />
+                <e p="column-desc.png" t="Include" />
+                <e p="column-sortable.png" t="Include" />
+                <e p="crimson" t="Include">
+                  <e p="jtable.css" t="Include" />
+                  <e p="jtable.less" t="Include" />
+                  <e p="jtable.min.css" t="Include" />
+                  <e p="loading.gif" t="Include" />
+                </e>
+                <e p="darkgray" t="Include">
+                  <e p="jtable.css" t="Include" />
+                  <e p="jtable.less" t="Include" />
+                  <e p="jtable.min.css" t="Include" />
+                  <e p="loading.gif" t="Include" />
+                </e>
+                <e p="darkorange" t="Include">
+                  <e p="jtable.css" t="Include" />
+                  <e p="jtable.less" t="Include" />
+                  <e p="jtable.min.css" t="Include" />
+                  <e p="loading.gif" t="Include" />
+                </e>
+                <e p="delete.png" t="Include" />
+                <e p="edit.png" t="Include" />
+                <e p="green" t="Include">
+                  <e p="jtable.css" t="Include" />
+                  <e p="jtable.less" t="Include" />
+                  <e p="jtable.min.css" t="Include" />
+                  <e p="loading.gif" t="Include" />
+                </e>
+                <e p="jtable_metro_base.css" t="Include" />
+                <e p="jtable_metro_base.less" t="Include" />
+                <e p="jtable_metro_base.min.css" t="Include" />
+                <e p="lightgray" t="Include">
+                  <e p="jtable.css" t="Include" />
+                  <e p="jtable.less" t="Include" />
+                  <e p="jtable.min.css" t="Include" />
+                  <e p="loading.gif" t="Include" />
+                </e>
+                <e p="pink" t="Include">
+                  <e p="jtable.css" t="Include" />
+                  <e p="jtable.less" t="Include" />
+                  <e p="jtable.min.css" t="Include" />
+                  <e p="loading.gif" t="Include" />
+                </e>
+                <e p="purple" t="Include">
+                  <e p="jtable.css" t="Include" />
+                  <e p="jtable.less" t="Include" />
+                  <e p="jtable.min.css" t="Include" />
+                  <e p="loading.gif" t="Include" />
+                </e>
+                <e p="red" t="Include">
+                  <e p="jtable.css" t="Include" />
+                  <e p="jtable.less" t="Include" />
+                  <e p="jtable.min.css" t="Include" />
+                  <e p="loading.gif" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="modernizr-2.6.2.js" t="Include" />
+          <e p="respond.js" t="Include" />
+          <e p="respond.min.js" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Cliente" t="Include">
+            <e p="Alterar.cshtml" t="Include" />
+            <e p="Forms.cshtml" t="Include" />
+            <e p="Incluir.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="Web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+        <e p="WebAtividadeEntrevista.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="FI.WebAtividadeEntrevista.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\Luiz\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Luiz\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_FI.WebAtividadeEntrevista.-559349929.00" t="ExcludeRecursive" />
+  </component>
+</project>
