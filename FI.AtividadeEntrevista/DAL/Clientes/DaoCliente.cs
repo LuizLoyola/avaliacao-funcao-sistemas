@@ -55,11 +55,19 @@ namespace FI.AtividadeEntrevista.DAL
             return cli.FirstOrDefault();
         }
 
-        internal bool VerificarExistencia(string CPF)
+        /// <summary>
+        /// Verifica se o CPF informado já existe na base.
+        /// </summary>
+        /// <param name="CPF">CPF a ser procurado</param>
+        /// <param name="id">(Opcional) Caso informado, ignora este ID. Útil para edições, onde o usuário pode editar o cliente e manter o mesmo CPF.</param>
+        /// <returns></returns>
+        internal bool VerificarExistencia(string CPF, long? id = null)
         {
             List<System.Data.SqlClient.SqlParameter> parametros = new List<System.Data.SqlClient.SqlParameter>();
 
             parametros.Add(new System.Data.SqlClient.SqlParameter("CPF", CPF));
+            if (id != null)
+                parametros.Add(new System.Data.SqlClient.SqlParameter("ID", id.Value));
 
             DataSet ds = base.Consultar("FI_SP_VerificaCliente", parametros);
 

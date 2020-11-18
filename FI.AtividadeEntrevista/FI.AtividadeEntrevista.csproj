@@ -73,6 +73,7 @@
     <EmbeddedResource Include="DAL\Clientes\Procedures\FI_SP_ConsCliente.sql" />
     <EmbeddedResource Include="DAL\Clientes\Procedures\FI_SP_AltCliente.sql" />
     <EmbeddedResource Include="DAL\Clientes\Procedures\FI_SP_IncCliente.sql" />
+    <EmbeddedResource Include="DAL\Clientes\Procedures\FI_SP_VerificaCliente.sql" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
