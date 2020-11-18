@@ -7,52 +7,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5582a837-6e56-4604-a511-2c077f7e3efc" name="Default Changelist" comment="" />
+    <list default="true" id="27127e0e-0873-4aee-8cf2-7c5682104767" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Controllers/ClienteController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Controllers/ClienteController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Models/ClienteModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Models/ClienteModel.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81C76C49-CBF1-49B9-B335-A27760C86298/54/421681cb/HttpContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81C76C49-CBF1-49B9-B335-A27760C86298/89/252c096e/HttpApplication.cs" root0="SKIP_HIGHLIGHTING" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Controllers/ClienteController.cs" />
-      <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DML/Cliente.cs" />
-      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Models/ClienteModel.cs" />
-      <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Clientes/DaoCliente.cs" />
-      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Views/Cliente/Forms.cshtml" />
-      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Scripts/Clientes/FI.AltClientes.js" />
-      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Scripts/Clientes/FI.Clientes.js" />
-      <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0bebbd0f-ab64-4ce6-a39d-78152f093a98/console.sql" />
-      <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/BLL/BoCliente.cs" />
-      <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Clientes/Procedures/FI_SP_IncCliente.sql" />
+      <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ca189d90-e4cf-42f8-99bf-103bae4a24d2/console.sql" />
       <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Clientes/Procedures/FI_SP_AltCliente.sql" />
       <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Clientes/Procedures/FI_SP_ConsCliente.sql" />
+      <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Clientes/Procedures/FI_SP_IncCliente.sql" />
       <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Clientes/Procedures/FI_SP_PesqCliente.sql" />
+      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Models/ClienteModel.cs" />
+      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Controllers/ClienteController.cs" />
     </changedPaths>
   </component>
-  <component name="ProjectId" id="1kTDhcY8hi2N2graqtTVMCwY5YR" />
+  <component name="ProjectId" id="1kTZXsgTBQdG3q5TwWRKdki1p7U" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="sqlserver" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34950384" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
+    <property name="DatabaseDriversLRU" value="sqlserver.jtds" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -76,25 +63,42 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <browser url="http://localhost:13007/" start="true" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5582a837-6e56-4604-a511-2c077f7e3efc" name="Default Changelist" comment="" />
-      <created>1605715811295</created>
+      <changelist id="27127e0e-0873-4aee-8cf2-7c5682104767" name="Default Changelist" comment="" />
+      <created>1605726585001</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605715811295</updated>
-      <workItem from="1605715817097" duration="497000" />
-      <workItem from="1605717066415" duration="693000" />
-      <workItem from="1605718393703" duration="4832000" />
+      <updated>1605726585001</updated>
+      <workItem from="1605726588323" duration="982000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -103,30 +107,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/FI.WebAtividadeEntrevista/Controllers/ClienteController.cs</url>
-          <line>26</line>
-          <properties documentPath="C:\Git\Avaliacoes\FI.WebAtividadeEntrevista\FI.WebAtividadeEntrevista\Controllers\ClienteController.cs" initialLine="26" containingFunctionPresentation="method 'Incluir'">
+          <url>file://$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Clientes/DaoCliente.cs</url>
+          <line>20</line>
+          <properties documentPath="C:\Git\Avaliacoes\avaliacao-funcao-sistemas\FI.AtividadeEntrevista\DAL\Clientes\DaoCliente.cs" initialLine="20" containingFunctionPresentation="method 'Incluir'">
             <startOffsets>
-              <option value="566" />
+              <option value="539" />
             </startOffsets>
             <endOffsets>
-              <option value="567" />
+              <option value="540" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/FI.AtividadeEntrevista/BLL/BoCliente.cs</url>
-          <line>15</line>
-          <properties documentPath="C:\Git\Avaliacoes\FI.WebAtividadeEntrevista\FI.AtividadeEntrevista\BLL\BoCliente.cs" initialLine="15" containingFunctionPresentation="method 'Incluir'">
-            <startOffsets>
-              <option value="386" />
-            </startOffsets>
-            <endOffsets>
-              <option value="387" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

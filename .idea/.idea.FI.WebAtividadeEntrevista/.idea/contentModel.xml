@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Git\Avaliacoes\FI.WebAtividadeEntrevista" t="IncludeFlat">
+    <e p="C:\Git\Avaliacoes\avaliacao-funcao-sistemas" t="IncludeFlat">
       <e p="FI.AtividadeEntrevista" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="BLL" t="Include">
@@ -417,6 +417,6 @@
       <e p="packages" t="ExcludeRecursive" />
     </e>
     <e p="C:\Users\Luiz\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Luiz\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_FI.WebAtividadeEntrevista.-559349929.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Luiz\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_FI.WebAtividadeEntrevista.403538434.00" t="ExcludeRecursive" />
   </component>
 </project>
