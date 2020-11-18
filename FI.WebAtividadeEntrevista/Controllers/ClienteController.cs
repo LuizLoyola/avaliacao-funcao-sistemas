@@ -41,7 +41,8 @@ namespace WebAtividadeEntrevista.Controllers
                 
                 model.Id = bo.Incluir(new Cliente()
                 {                    
-                    CEP = model.CEP,
+                    CEP = model.CEP, 
+                    CPF = model.CPF,
                     Cidade = model.Cidade,
                     Email = model.Email,
                     Estado = model.Estado,
@@ -77,6 +78,7 @@ namespace WebAtividadeEntrevista.Controllers
                 {
                     Id = model.Id,
                     CEP = model.CEP,
+                    CPF = model.CPF,
                     Cidade = model.Cidade,
                     Email = model.Email,
                     Estado = model.Estado,
@@ -104,6 +106,7 @@ namespace WebAtividadeEntrevista.Controllers
                 {
                     Id = cliente.Id,
                     CEP = cliente.CEP,
+                    CPF = cliente.CPF,
                     Cidade = cliente.Cidade,
                     Email = cliente.Email,
                     Estado = cliente.Estado,
