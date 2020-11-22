@@ -31,7 +31,12 @@ $(document).ready(function () {
             }
         });
     })
-    
+
+    $('#btnBeneficiarios').click(function (e) {
+        e.preventDefault();
+
+        $('#popupBeneficiarios').modal('show');
+    })
 })
 
 function ModalDialog(titulo, texto) {

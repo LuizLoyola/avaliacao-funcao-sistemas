@@ -25,7 +25,9 @@ namespace WebAtividadeEntrevista.Controllers
         [HttpPost]
         public JsonResult Incluir(ClienteModel model)
         {
-            BoCliente bo = new BoCliente();
+            BoCliente boCliente = new BoCliente();
+            BoBeneficiario boBeneficiario = new BoBeneficiario();
+            
             
             if (!this.ModelState.IsValid)
             {
@@ -36,15 +38,14 @@ namespace WebAtividadeEntrevista.Controllers
                 Response.StatusCode = 400;
                 return Json(string.Join(Environment.NewLine, erros));
             }
-            else if (bo.VerificarExistencia(model.CPF))
+            else if (boCliente.VerificarExistencia(model.CPF))
             {
                 Response.StatusCode = 400;
                 return Json("Já existe um cliente com este CPF.");
             }
             else
             {
-                
-                model.Id = bo.Incluir(new Cliente()
+                model.Id = boCliente.Incluir(new Cliente()
                 {                    
                     CEP = model.CEP, 
                     CPF = model.CPF,
@@ -58,6 +59,15 @@ namespace WebAtividadeEntrevista.Controllers
                     Telefone = model.Telefone
                 });
 
+                foreach (var beneficiario in model.Beneficiarios)
+                {
+                    boBeneficiario.Incluir(new Beneficiario
+                    {
+                        Nome = beneficiario.Nome,
+                        CPF = beneficiario.CPF,
+                        IdCliente = model.Id
+                    });
+                }
            
                 return Json("Cadastro efetuado com sucesso");
             }

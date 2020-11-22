@@ -7,7 +7,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27127e0e-0873-4aee-8cf2-7c5682104767" name="Default Changelist" comment="" />
+    <list default="true" id="27127e0e-0873-4aee-8cf2-7c5682104767" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FI.WebAtividadeEntrevista/.idea/dictionaries/Luiz.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FI.AtividadeEntrevista/BLL/BoBeneficiario.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Beneficiarios/DaoBeneficiario.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Beneficiarios/Procedures/FI_SP_AltBeneficiario.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Beneficiarios/Procedures/FI_SP_ConsBeneficiario.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Beneficiarios/Procedures/FI_SP_DelBeneficiario.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Beneficiarios/Procedures/FI_SP_IncBeneficiario.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FI.AtividadeEntrevista/DML/Beneficiario.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Models/BeneficiarioModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Scripts/Clientes/Beneficiarios/FI.Beneficiarios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Views/Cliente/Beneficiario/Lista.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FI.WebAtividadeEntrevista/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FI.WebAtividadeEntrevista/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FI.WebAtividadeEntrevista/.idea/dataSources/72ba3640-857f-4b2b-bb4b-1ac57fb85875.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FI.WebAtividadeEntrevista/.idea/dataSources/72ba3640-857f-4b2b-bb4b-1ac57fb85875.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FI.WebAtividadeEntrevista/.idea/dataSources/72ba3640-857f-4b2b-bb4b-1ac57fb85875/storage_v2/_src_/database/C__GIT_AVALIACOES_AVALIACAO-FUNCAO-SISTEMAS_FI.WEBATIVIDADEENTREVISTA_APP_DATA_BANCODEDADOS.MDF.9sLgVQ/schema/dbo.sYMBAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FI.WebAtividadeEntrevista/.idea/dataSources/72ba3640-857f-4b2b-bb4b-1ac57fb85875/storage_v2/_src_/database/C__GIT_AVALIACOES_AVALIACAO-FUNCAO-SISTEMAS_FI.WEBATIVIDADEENTREVISTA_APP_DATA_BANCODEDADOS.MDF.9sLgVQ/schema/dbo.sYMBAA.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FI.WebAtividadeEntrevista/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FI.WebAtividadeEntrevista/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FI.WebAtividadeEntrevista/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FI.WebAtividadeEntrevista/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FI.AtividadeEntrevista/DML/Cliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FI.AtividadeEntrevista/DML/Cliente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FI.AtividadeEntrevista/FI.AtividadeEntrevista.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FI.AtividadeEntrevista/FI.AtividadeEntrevista.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/App_Start/BundleConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/App_Start/BundleConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Controllers/ClienteController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Controllers/ClienteController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Models/ClienteModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Models/ClienteModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Scripts/Clientes/FI.AltClientes.js" beforeDir="false" afterPath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Scripts/Clientes/FI.AltClientes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Scripts/Clientes/FI.Clientes.js" beforeDir="false" afterPath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Scripts/Clientes/FI.Clientes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Views/Cliente/Alterar.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Views/Cliente/Alterar.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Views/Cliente/Forms.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Views/Cliente/Forms.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Views/Cliente/Incluir.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Views/Cliente/Incluir.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/WebAtividadeEntrevista.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FI.WebAtividadeEntrevista/WebAtividadeEntrevista.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +44,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/5e/ac7df08a/WebViewPage`1.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ca189d90-e4cf-42f8-99bf-103bae4a24d2/console.sql" />
@@ -23,21 +54,47 @@
       <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Clientes/Procedures/FI_SP_ConsCliente.sql" />
       <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Clientes/Procedures/FI_SP_IncCliente.sql" />
       <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Clientes/Procedures/FI_SP_PesqCliente.sql" />
+      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Models/BeneficiarioCliente.cs" />
+      <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DML/Cliente.cs" />
+      <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Beneficiarios/DaoCliente.cs" />
+      <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Beneficiarios/DaoBeneficiario.cs" />
+      <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Beneficiarios/Procedures/FI_SP_AltBeneficiario.sql" />
+      <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Beneficiarios/Procedures/FI_SP_DelBeneficiario.sql" />
+      <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Beneficiarios/Procedures/FI_SP_ConsBeneficiario.sql" />
+      <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Beneficiarios/Procedures/FI_SP_PesqBeneficiario.sql" />
+      <option value="$PROJECT_DIR$/FI.AtividadeEntrevista/BLL/BoBeneficiario.cs" />
+      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Views/Cliente/Beneficiarios.cshtml" />
+      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Views/Beneficiario/Lista.cshtml" />
+      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Views/Cliente/Incluir.cshtml" />
       <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Models/ClienteModel.cs" />
+      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Models/BeneficiarioModel.cs" />
       <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Controllers/ClienteController.cs" />
+      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Views/Cliente/Alterar.cshtml" />
+      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Views/Cliente/Forms.cshtml" />
+      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Scripts/Clientes/FI.AltClientes.js" />
+      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Scripts/Clientes/FI.Clientes.js" />
+      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Scripts/Clientes/Beneficiarios/FI.Beneficiarios.js" />
+      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/Views/Cliente/Beneficiario/Lista.cshtml" />
+      <option value="$PROJECT_DIR$/FI.WebAtividadeEntrevista/App_Start/BundleConfig.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kTZXsgTBQdG3q5TwWRKdki1p7U" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlserver.jtds" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34950384" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -45,8 +102,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -98,34 +156,29 @@
       <option name="presentableId" value="Default" />
       <updated>1605726585001</updated>
       <workItem from="1605726588323" duration="1786000" />
+      <workItem from="1606074969361" duration="3464000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
-  <component name="VcsManagerConfiguration">
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/FI.WebAtividadeEntrevista/Controllers/ClienteController.cs</url>
-          <line>41</line>
-          <properties documentPath="C:\Git\Avaliacoes\avaliacao-funcao-sistemas\FI.WebAtividadeEntrevista\Controllers\ClienteController.cs" initialLine="41" containingFunctionPresentation="method 'Incluir'">
-            <startOffsets>
-              <option value="1081" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1618" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

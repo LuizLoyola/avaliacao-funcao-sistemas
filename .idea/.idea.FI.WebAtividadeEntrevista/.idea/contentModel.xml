@@ -5,9 +5,19 @@
       <e p="FI.AtividadeEntrevista" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="BLL" t="Include">
+          <e p="BoBeneficiario.cs" t="Include" />
           <e p="BoCliente.cs" t="Include" />
         </e>
         <e p="DAL" t="Include">
+          <e p="Beneficiarios" t="Include">
+            <e p="DaoBeneficiario.cs" t="Include" />
+            <e p="Procedures" t="Include">
+              <e p="FI_SP_AltBeneficiario.sql" t="Include" />
+              <e p="FI_SP_ConsBeneficiario.sql" t="Include" />
+              <e p="FI_SP_DelBeneficiario.sql" t="Include" />
+              <e p="FI_SP_IncBeneficiario.sql" t="Include" />
+            </e>
+          </e>
           <e p="Clientes" t="Include">
             <e p="DaoCliente.cs" t="Include" />
             <e p="Procedures" t="Include">
@@ -16,6 +26,7 @@
               <e p="FI_SP_DelCliente.sql" t="Include" />
               <e p="FI_SP_IncCliente.sql" t="Include" />
               <e p="FI_SP_PesqCliente.sql" t="Include" />
+              <e p="FI_SP_VerificaCliente.sql" t="Include" />
             </e>
           </e>
           <e p="Padrao" t="Include">
@@ -23,6 +34,7 @@
           </e>
         </e>
         <e p="DML" t="Include">
+          <e p="Beneficiario.cs" t="Include" />
           <e p="Cliente.cs" t="Include" />
         </e>
         <e p="FI.AtividadeEntrevista.csproj" t="IncludeRecursive" />
@@ -185,6 +197,7 @@
         <e p="Global.asax" t="Include" />
         <e p="Global.asax.cs" t="Include" />
         <e p="Models" t="Include">
+          <e p="BeneficiarioModel.cs" t="Include" />
           <e p="ClienteModel.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
@@ -196,6 +209,9 @@
           <e p="bootstrap.js" t="Include" />
           <e p="bootstrap.min.js" t="Include" />
           <e p="Clientes" t="Include">
+            <e p="Beneficiarios" t="Include">
+              <e p="FI.Beneficiarios.js" t="Include" />
+            </e>
             <e p="FI.AltClientes.js" t="Include" />
             <e p="FI.Clientes.js" t="Include" />
             <e p="FI.ListClientes.js" t="Include" />
@@ -395,6 +411,9 @@
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Cliente" t="Include">
             <e p="Alterar.cshtml" t="Include" />
+            <e p="Beneficiario" t="Include">
+              <e p="Lista.cshtml" t="Include" />
+            </e>
             <e p="Forms.cshtml" t="Include" />
             <e p="Incluir.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
@@ -418,5 +437,7 @@
     </e>
     <e p="C:\Users\Luiz\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Luiz\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_FI.WebAtividadeEntrevista.403538434.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Luiz\AppData\Roaming\JetBrains\Rider2020.3\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Luiz\AppData\Roaming\JetBrains\Rider2020.3\extensions" t="IncludeRecursive" />
   </component>
 </project>

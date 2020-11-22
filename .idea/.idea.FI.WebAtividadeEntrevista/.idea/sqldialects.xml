@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Clientes/Procedures/FI_SP_AltCliente.sql" dialect="TSQL" />
-    <file url="file://$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Clientes/Procedures/FI_SP_ConsCliente.sql" dialect="TSQL" />
-    <file url="file://$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Clientes/Procedures/FI_SP_DelCliente.sql" dialect="TSQL" />
-    <file url="file://$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Clientes/Procedures/FI_SP_IncCliente.sql" dialect="TSQL" />
-    <file url="file://$PROJECT_DIR$/FI.AtividadeEntrevista/DAL/Clientes/Procedures/FI_SP_PesqCliente.sql" dialect="TSQL" />
+    <file url="PROJECT" dialect="TSQL" />
   </component>
   <component name="SqlResolveMappings">
     <file url="PROJECT" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;name&quot;:{     &quot;@qname&quot;:&quot;72ba3640-857f-4b2b-bb4b-1ac57fb85875&quot;    },    &quot;group&quot;:{     &quot;@kind&quot;:&quot;database&quot;,     &quot;node&quot;:{      &quot;name&quot;:{       &quot;@qname&quot;:&quot;C:\\GIT\\AVALIACOES\\AVALIACAO-FUNCAO-SISTEMAS\\FI.WEBATIVIDADEENTREVISTA\\APP_DATA\\BANCODEDADOS.MDF&quot;      },      &quot;group&quot;:{       &quot;@kind&quot;:&quot;schema&quot;,       &quot;node&quot;:{        &quot;name&quot;:{         &quot;@qname&quot;:&quot;dbo&quot;        }       }      }     }    }   }  } }}" />

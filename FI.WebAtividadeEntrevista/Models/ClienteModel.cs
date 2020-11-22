@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace WebAtividadeEntrevista.Models
 {
@@ -73,5 +74,6 @@ namespace WebAtividadeEntrevista.Models
         /// </summary>
         public string Telefone { get; set; }
 
+        public List<BeneficiarioModel> Beneficiarios { get; set; }
     }    
 }
